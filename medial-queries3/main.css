@@ -2,3 +2,86 @@ body {
   background: peachpuff;
   font-size: 4em;
 }
+
+/* * { border: 1px solid red} */
+
+div {
+  margin: 5px;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h {
+  background-color: rgb(167, 167, 201);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 100%;
+}
+
+.a {
+  height: 30%;
+  flex-grow: ;
+}
+
+.a-off {
+  display: flex;
+  height: 70%;
+}
+
+.BtoG {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.b, .c, .d, .e, .f, .g {
+  height: 95%;
+  width: 95%;
+}
+
+
+.h-div {
+  display: flex;
+  width: 25%;
+}
+
+.h {
+  flex-grow: 2;
+}
+
+.bcd, .efg {
+  display: flex;
+  height: 50%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .a {
+    background-color: blueviolet;
+    height: 15%;
+  }
+  .a-off {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .BtoG {
+    height: 50%;
+    width: 100%;
+  }
+  .h-div {
+    height: 50%;
+    width: 100%;
+  }
+  .bcd, .efg {
+    height: 50%;
+  }
+}
